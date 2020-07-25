@@ -26,6 +26,7 @@ class App extends Component {
     const finalText = newText.join(''); //convert back to text
     this.setState({
       text:finalText,
+      textLength: finalText.length,
     })
 
   }
